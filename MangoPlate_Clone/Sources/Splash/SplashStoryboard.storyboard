@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RnR-dg-FVQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="uDr-1j-e5Y">
+            <objects>
+                <viewController storyboardIdentifier="SplashView" id="RnR-dg-FVQ" customClass="SplashViewController" customModule="MangoPlate_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g8T-70-dqt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="로그인 배경" translatesAutoresizingMaskIntoConstraints="NO" id="ueE-NT-ZXh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view alpha="0.34999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dul-yl-54z">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="로그인화면 타이틀" translatesAutoresizingMaskIntoConstraints="NO" id="dV5-fu-4Cn">
+                                <rect key="frame" x="53.5" y="219.5" width="307" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dV5-fu-4Cn" secondAttribute="height" multiplier="307:167" id="XHS-Eq-MZT"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bzb-vn-po6">
+                                <rect key="frame" x="107" y="434" width="200" height="38"/>
+                                <color key="backgroundColor" red="0.21827117376262342" green="0.23533208116606014" blue="0.65805002893838371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bzb-vn-po6" secondAttribute="height" multiplier="21:4" id="NjG-z8-5Rd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <state key="normal" title="페이스북으로 계속하기" image="florinsign.circle" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UaD-gt-jwg">
+                                <rect key="frame" x="107" y="492" width="200" height="38"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.89681194726066094" blue="0.24536140316746333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Crf-cs-LFS"/>
+                                    <constraint firstAttribute="width" secondItem="UaD-gt-jwg" secondAttribute="height" multiplier="21:4" id="Eby-aI-usj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="tintColor" red="0.2897529987373737" green="0.20510709083928017" blue="0.1138808064655329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="카카오톡으로 계속하기" image="message.fill" catalog="system">
+                                    <color key="titleColor" red="0.2897529987373737" green="0.20510709083928017" blue="0.1138808064655329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                </state>
+                                <connections>
+                                    <action selector="kakaoLoginRequestButtonTab:" destination="RnR-dg-FVQ" eventType="touchUpInside" id="DK6-g5-T9k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQU-21-Xnj">
+                                <rect key="frame" x="331" y="832" width="52" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BQU-21-Xnj" secondAttribute="height" multiplier="26:15" id="WVp-Qv-7kl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="건너뛰기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="presentMainStoryboard:" destination="RnR-dg-FVQ" eventType="touchUpInside" id="8EN-YP-JfA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wby-jK-oow"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UaD-gt-jwg" firstAttribute="top" secondItem="bzb-vn-po6" secondAttribute="bottom" constant="20" id="0MG-qD-V4Z"/>
+                            <constraint firstItem="bzb-vn-po6" firstAttribute="centerY" secondItem="Wby-jK-oow" secondAttribute="centerY" id="5Kf-ZM-XQa"/>
+                            <constraint firstItem="Wby-jK-oow" firstAttribute="bottom" secondItem="BQU-21-Xnj" secondAttribute="bottom" id="KDp-ua-tSk"/>
+                            <constraint firstItem="bzb-vn-po6" firstAttribute="width" secondItem="UaD-gt-jwg" secondAttribute="width" id="SDI-Im-iFi"/>
+                            <constraint firstItem="bzb-vn-po6" firstAttribute="centerX" secondItem="Wby-jK-oow" secondAttribute="centerX" id="cfY-Ra-NXU"/>
+                            <constraint firstItem="UaD-gt-jwg" firstAttribute="centerX" secondItem="Wby-jK-oow" secondAttribute="centerX" id="d0d-8p-ajq"/>
+                            <constraint firstItem="dV5-fu-4Cn" firstAttribute="centerX" secondItem="Wby-jK-oow" secondAttribute="centerX" id="esm-Gn-XfR"/>
+                            <constraint firstItem="dV5-fu-4Cn" firstAttribute="centerY" secondItem="Wby-jK-oow" secondAttribute="centerY" constant="-150" id="kvs-ep-wfw"/>
+                            <constraint firstItem="Wby-jK-oow" firstAttribute="trailing" secondItem="dV5-fu-4Cn" secondAttribute="trailing" constant="53.5" id="lH6-IQ-8ef"/>
+                            <constraint firstItem="dV5-fu-4Cn" firstAttribute="leading" secondItem="Wby-jK-oow" secondAttribute="leading" constant="53.5" id="ngx-4y-DnH"/>
+                            <constraint firstItem="Wby-jK-oow" firstAttribute="trailing" secondItem="BQU-21-Xnj" secondAttribute="trailing" constant="31" id="tv3-oe-civ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="facebookLoginButton" destination="bzb-vn-po6" id="EPG-2C-leW"/>
+                        <outlet property="kakaoLoginButton" destination="UaD-gt-jwg" id="g1q-em-f3m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTP-Zs-Rx3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="197.54464285714286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="florinsign.circle" catalog="system" width="128" height="121"/>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="로그인 배경" width="375" height="812"/>
+        <image name="로그인화면 타이틀" width="171" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
