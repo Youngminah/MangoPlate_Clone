@@ -45,11 +45,31 @@
 #### ▶︎ 실행 동영상 첫번째.
 <img src="https://github.com/Youngminah/iosStudyRecording/blob/main/gif/1.gif" title="auto gif" width="30%"/>
 
+→ 카카오 소셜 자동로그인 구현
+
+→ 사용자 위치 정보 등록
+
+→ 베너 광고 자동 스크롤
+
+→ 평점순, 조회순, 거리순, 리뷰순 정렬 가능.
+
 <br></br>
 <br></br>
 
+
 #### ▶︎ 실행 동영상 두번째.
 <img src="https://github.com/Youngminah/iosStudyRecording/blob/main/gif/2.gif" title="auto gif" width="30%"/>
+
+
+→ 사용자가 필터 선택하여 맛집 조회 (중복 선택 가능)
+
+→ 5가지 메인 탭바 화면 구현 완료
+
+→ 탭바 선택시 애니메이션 구현 완료
+
+→ 소식 페이지 리뷰 카테고리별 조회 기능
+
+→ 맛집 즐겨찾기 등록 능
 
 <br></br>
 <br></br>
@@ -57,12 +77,27 @@
 #### ▶︎ 실행 동영상 세번째.
 <img src="https://github.com/Youngminah/iosStudyRecording/blob/main/gif/3.gif" title="auto gif" width="30%"/>
 
+→ 특정 맛집 조회시 리뷰 쓰기 기능 (로그인 안하면 로그인 페이지로 전환)
+
+→ 리뷰 쓰기에서 사진 중복 선택 기능
+
+→ 리뷰 등록 후 소식페이지나 상세 맛집 조회에서 내가 등록한 리뷰 조회 기능
+
+
+
 <br></br>
 <br></br>
 
 
 #### ▶︎ 실행 동영상 네번째.
 <img src="https://github.com/Youngminah/iosStudyRecording/blob/main/gif/4.gif" title="auto gif" width="30%"/>
+
+
+→ 리뷰 삭제 기능
+
+→ 로그아웃 기능
+
+→ 비회원일시 조회는 가능하지만 로그인이 필요한 기능을 사용할 경우 로그인 페이지 전환 
 
 <br></br>
 <br></br>
